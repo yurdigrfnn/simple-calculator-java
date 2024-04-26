@@ -16,7 +16,8 @@ This is a calculator application implemented in Java. It allows users to perform
 3. Run the application using `java`.
 4. Follow the on-screen instructions to perform calculations.
 5. Enter `Y` to perform another calculation.
-6Enter `N` when prompted to perform another calculation to exit the application.
+6. Enter `N` to exit the application.
+
 ## Example
 
 To run the application:
@@ -24,3 +25,4 @@ To run the application:
 ```bash
 javac -d bin src/main/java/*.java src/main/java/entity/*.java src/main/java/service/*.java src/main/java/view/*.java
 java -cp bin view.CalculatorView
+```
